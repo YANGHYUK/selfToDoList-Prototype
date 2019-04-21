@@ -1,0 +1,191 @@
+body {
+  background-color: rgb(228, 149, 2);
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.left {
+  width: 30%;
+  align-items: center;
+}
+
+
+.LeftSide {
+  margin-top: 20px;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+}
+
+.mySelect {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.toSearch {
+  align-content: left;
+  margin: 20px;
+}
+
+.inputSearch {
+  margin-top:0px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.inputSearch :hover {
+  
+  background-color: plum;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 0px 0px 5px #61C5FA;
+  border-color: #5AB0DB;
+}
+
+input:hover {
+  border: 2px solid #999;
+  border-radius: 5px;
+}
+
+.apple {
+  width:100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+.right {
+  width:70%;
+}
+
+.RightSide {
+  margin-top: 20px;
+  height:1000px;
+  width: 100%;
+  border-left: 10px solid whitesmoke;
+  
+}
+
+.head{
+  font-size: 50px;
+  color: whitesmoke;
+  width: 100%;
+  height: 100px;
+  display: flex inline;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  border-bottom: 5px solid whitesmoke;
+
+}
+
+.toDo {
+  align-content: left;
+  margin: 20px;
+ 
+}
+
+
+input[type='radio']:after {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: whitesmoke;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: aquamarine;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: aquamarine;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+
+.inputTextBox {
+  margin-left: 20px;
+  width: 90%;
+  color: rgb(66, 3, 3); 
+}
+
+.inputText {
+  margin-left: 20px;
+  width: 98%;
+  
+}
+
+.deleteX {
+  margin-right: 20px;
+  cursor: pointer;
+  padding-bottom: 0px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.inputToDo{
+  margin: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* .hidden { display:  block;
+} */
